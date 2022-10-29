@@ -13,9 +13,11 @@ list.forEach(function(item){
 show.addEventListener('click', function(){
     header2.classList.add('active')
     dark.classList.add('active')
+    show.style.opacity = '0'
 })
 
 hide.addEventListener('click', function(){
     header2.classList.remove('active')
     dark.classList.remove('active')
+    show.style.opacity = '1'
 })
