@@ -192,6 +192,7 @@ main button:hover {
     body {
         max-height: auto;
         position: relative;
+        width: 100vw;
     }
     header {
         margin-bottom: 0;
